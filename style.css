@@ -93,21 +93,21 @@ h1 {
 .card-input {
   background-image: 
     linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
-    url('phanta1.png');
+    url('images/phanta1.png');
 }
 
 /* 2. 결과 카드 배경 */
 .card-result {
   background-image: 
     linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
-    url('phanta2.png');
+    url('images/phanta2.png');
 }
 
 /* 3. 드롭 아이템 카드 배경 */
 .card-drop {
   background-image: 
     linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
-    url('phanta3.png');
+    url('images/phanta3.png');
 }
 
 /* 입력 필드 배경을 살짝 투명하게 만들어 카드 배경 일러스트와 어우러지게 조정 */
