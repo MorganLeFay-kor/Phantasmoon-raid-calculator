@@ -73,8 +73,10 @@ h1 {
 }
 
 .input-row input {
-    flex: 1;
+    width: 75px;
+    flex: none;
     margin: 0;
+    text-align: center; /* 숫자가 가운데 오도록 정렬 */
 }
 
 /* 공통 카드 스타일 */
