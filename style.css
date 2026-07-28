@@ -93,21 +93,21 @@ h1 {
 /* 1. 입력 카드 배경 (반투명 오버레이 + 세로 일러스트) */
 .card-input {
   background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
+    linear-gradient(to right, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0.4) 100%), 
     url('images/phanta1.png');
 }
 
 /* 2. 결과 카드 배경 */
 .card-result {
   background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
+    linear-gradient(to right, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0.4) 100%), 
     url('images/phanta2.png');
 }
 
 /* 3. 드롭 아이템 카드 배경 */
 .card-drop {
   background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
+    linear-gradient(to right, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0.4) 100%), 
     url('images/phanta3.png');
 }
 
