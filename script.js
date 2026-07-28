@@ -17,6 +17,18 @@ function calculateRaid1() {
     const runCount = Math.floor(totalAP / 40);
 
     document.getElementById("runCount1").textContent = runCount + "회";
+
+    const bondBonus = Number(document.getElementById("bond1").value);
+
+    const bondPoint = Math.floor(runCount * 2636 * (1 + bondBonus / 100));
+
+    const qp = runCount * 5230000;
+
+     document.getElementById("bondPoint1").textContent =
+     bondPoint.toLocaleString() + " pt";
+
+    document.getElementById("qp1").textContent =
+    (qp / 100000000).toFixed(2) + "억";
 }
 
 function calculateRaid2() {
@@ -38,6 +50,18 @@ function calculateRaid2() {
     const runCount = Math.floor(totalAP / 40);
 
     document.getElementById("runCount2").textContent = runCount + "회";
+
+    const bondBonus = Number(document.getElementById("bond1").value);
+
+    const bondPoint = Math.floor(runCount * 2636 * (1 + bondBonus / 100));
+
+    const qp = runCount * 5240000;
+
+     document.getElementById("bondPoint1").textContent =
+     bondPoint.toLocaleString() + " pt";
+
+    document.getElementById("qp1").textContent =
+    (qp / 100000000).toFixed(2) + "억";
 }
 
 function calculateAll() {
