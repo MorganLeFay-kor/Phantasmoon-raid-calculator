@@ -82,9 +82,10 @@ h1 {
   position: relative;
   border-radius: 12px;
   padding: 20px;
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-size: auto 100%;       /* PC: 높이에 100% 맞춤 */
+  background-position: right center; /* PC: 오른쪽에 붙임 */
+  background-color: #ffffff;
   /* 카드 내 텍스트 및 입력창 가독성 확보 */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
