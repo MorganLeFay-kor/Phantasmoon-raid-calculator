@@ -15,6 +15,10 @@ h1 {
     margin-bottom: 50px;
 }
 
+.main-icon-container {
+    text-align: center;
+    margin-bottom: 40px;
+
 /* 레이드 영역 */
 
 .raid {
