@@ -74,11 +74,28 @@ function calculateRaid2() {
 
     const qp = runCount * 5240000;
 
+    const core = runCount * 0.275;
+    const claw = runCount * 0.381;
+    const jade = runCount * 0.730;
+    const bell = runCount * 1.080;
+
      document.getElementById("bondPoint2").textContent =
      bondPoint.toLocaleString() + " pt";
 
     document.getElementById("qp2").textContent =
     (qp / 100000000).toFixed(2) + "억";
+
+    document.getElementById("core2").textContent =
+    core.toFixed(2) + "개";
+
+    document.getElementById("claw2").textContent =
+    claw.toFixed(2) + "개";
+    
+    document.getElementById("jade2").textContent =
+    jade.toFixed(2) + "개";
+    
+    document.getElementById("bell2").textContent =
+    bell.toFixed(2) + "개";
 }
 
 function calculateAll() {
