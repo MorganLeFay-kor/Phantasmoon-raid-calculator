@@ -1,197 +1,382 @@
 /* 전체 페이지 */
 
+
+
 body {
-    margin: 40px;
-    background: #f3f5f7;
-    font-family: "Malgun Gothic", sans-serif;
-    color: #333;
+
+margin: 40px;
+
+background: #f3f5f7;
+
+font-family: "Malgun Gothic", sans-serif;
+
+color: #333;
+
 }
+
+
 
 /* 제목 */
 
+
+
 h1 {
-    text-align: center;
-    font-size: 42px;
-    margin-bottom: 50px;
+
+text-align: center;
+
+font-size: 42px;
+
+margin-bottom: 50px;
+
 }
 
-.main-icon-container {
-    text-align: center;
-    margin-bottom: 40px;
+
 
 /* 레이드 영역 */
 
-.raid {
-    background: white;
-    border-radius: 12px;
-    padding: 25px;
-    margin-bottom: 40px;
 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+.raid {
+
+background: white;
+
+border-radius: 12px;
+
+padding: 25px;
+
+margin-bottom: 40px;
+
+
+
+box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
 }
+
+
 
 /* 레이드 제목 */
 
+
+
 .raid h2 {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 25px;
+
+text-align: center;
+
+margin-top: 0;
+
+margin-bottom: 25px;
+
 }
+
+
 
 /* 카드 3개를 가로 배치 */
 
+
+
 .content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1.5fr;
-    gap: 20px;
+
+display: grid;
+
+grid-template-columns: 1fr 1fr 1.5fr;
+
+gap: 20px;
+
 }
+
+
 
 /* 카드 */
 
+
+
 .card {
-    border: 1px solid #d8d8d8;
-    border-radius: 10px;
-    padding: 20px;
-    min-height: 250px;
-    background: #fafafa;
+
+border: 1px solid #d8d8d8;
+
+border-radius: 10px;
+
+padding: 20px;
+
+min-height: 250px;
+
+background: #fafafa;
+
 }
+
+
 
 /* 카드 제목 */
 
+
+
 .card h3 {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 20px;
+
+text-align: center;
+
+margin-top: 0;
+
+margin-bottom: 20px;
+
 }
+
 .input-row {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 12px;
+
+display: flex;
+
+align-items: center;
+
+gap: 12px;
+
+margin-bottom: 12px;
+
 }
+
+
 
 .input-row label {
-    width: 140px;
-    font-weight: bold;
-    margin: 0;
+
+width: 140px;
+
+font-weight: bold;
+
+margin: 0;
+
 }
+
+
 
 .input-row input {
-    width: 75px;
-    flex: none;
-    margin: 0;
-    text-align: center; /* 숫자가 가운데 오도록 정렬 */
+
+flex: 1;
+
+margin: 0;
+
 }
+
+
 
 /* 공통 카드 스타일 */
+
 .card {
-  position: relative;
-  border-radius: 12px;
-  padding: 20px;
-  background-repeat: no-repeat;
-  background-size: cover;          /* 가로/세로 여백 없이 꽉 채움 */
-  background-position: center top; /* 상단 중앙 기준 정렬 (얼굴/상체 위주) */
-  background-color: #ffffff;
-  /* 카드 내 텍스트 및 입력창 가독성 확보 */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
+position: relative;
+
+border-radius: 12px;
+
+padding: 20px;
+
+background-repeat: no-repeat;
+
+background-size: cover; /* 가로/세로 여백 없이 꽉 채움 */
+
+background-position: center top; /* 상단 중앙 기준 정렬 (얼굴/상체 위주) */
+
+background-color: #ffffff;
+
+/* 카드 내 텍스트 및 입력창 가독성 확보 */
+
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
 }
+
+
 
 /* 1. 입력 카드 배경 (반투명 오버레이 + 세로 일러스트) */
+
 .card-input {
-  background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
-    url('images/phanta1.png');
+
+background-image:
+
+linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)),
+
+url('images/phanta1.png');
+
 }
+
+
 
 /* 2. 결과 카드 배경 */
+
 .card-result {
-  background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
-    url('images/phanta2.png');
+
+background-image:
+
+linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)),
+
+url('images/phanta2.png');
+
 }
+
+
 
 /* 3. 드롭 아이템 카드 배경 */
+
 .card-drop {
-  background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
-    url('images/phanta3.png');
+
+background-image:
+
+linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)),
+
+url('images/phanta3.png');
+
 }
+
+
 
 /* 입력 필드 배경을 살짝 투명하게 만들어 카드 배경 일러스트와 어우러지게 조정 */
+
 .card input, .card select {
-  background-color: rgba(255, 255, 255, 0.9);
+
+background-color: rgba(255, 255, 255, 0.9);
+
 }
+
+
 
 /* 아이콘 공통 스타일 */
+
 .icon {
-  width: 24px;              /* 아이콘 너비 (원하는 크기로 조절 가능) */
-  height: 24px;             /* 아이콘 높이 */
-  object-fit: contain;      /* 이미지 비율 유지 */
-  vertical-align: middle;   /* 텍스트와 높이 맞춤 */
-  margin-right: 6px;        /* 텍스트와의 간격 */
+
+width: 24px; /* 아이콘 너비 (원하는 크기로 조절 가능) */
+
+height: 24px; /* 아이콘 높이 */
+
+object-fit: contain; /* 이미지 비율 유지 */
+
+vertical-align: middle; /* 텍스트와 높이 맞춤 */
+
+margin-right: 6px; /* 텍스트와의 간격 */
+
 }
 
+
+
 /* 드롭 아이템용 조금 더 큰 아이콘 */
+
 .item-icon {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-  vertical-align: middle;
-  margin-right: 8px;
+
+width: 28px;
+
+height: 28px;
+
+object-fit: contain;
+
+vertical-align: middle;
+
+margin-right: 8px;
+
 }
+
+
 
 /* 모바일 대응 */
 
+
+
 @media (max-width:900px){
 
-    body {
-        margin: 15px;
-    }
 
-    h1 {
-        font-size: 30px;
-    }
 
-    .content {
-        grid-template-columns: 1fr;
-    }
+body {
 
-    .card {
-    /* 모바일에서 캐릭터 얼굴 등 주요 요소가 잘리지 않도록 상단/중앙 위주 정렬 */
-    background-position: center top; 
-    min-height: 250px; /* 세로 일러스트가 시원하게 보일 수 있도록 최소 높이 지정 */
-    }
-
-    .input-row {
-        display: block;
-    }
-
-    .input-row label {
-        width: 100%;
-        margin-bottom: 6px;
-    }
+margin: 15px;
 
 }
+
+
+
+h1 {
+
+font-size: 30px;
+
+}
+
+
+
+.content {
+
+grid-template-columns: 1fr;
+
+}
+
+
+
+.card {
+
+/* 모바일에서 캐릭터 얼굴 등 주요 요소가 잘리지 않도록 상단/중앙 위주 정렬 */
+
+background-position: center top;
+
+min-height: 250px; /* 세로 일러스트가 시원하게 보일 수 있도록 최소 높이 지정 */
+
+}
+
+
+
+.input-row {
+
+display: block;
+
+}
+
+
+
+.input-row label {
+
+width: 100%;
+
+margin-bottom: 6px;
+
+}
+
+
+
+}
+
+
 
 label {
-    display: block;
 
-    margin-top: 12px;
-    margin-bottom: 6px;
+display: block;
 
-    font-weight: bold;
+
+
+margin-top: 12px;
+
+margin-bottom: 6px;
+
+
+
+font-weight: bold;
+
 }
+
+
 
 input {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
 
-    padding: 8px;
-    margin-bottom: 12px;
+display: block;
 
-    font-size: 16px;
+width: 100%;
 
-    border: 1px solid #ccc;
-    border-radius: 6px;
-}
+box-sizing: border-box;
+
+
+
+padding: 8px;
+
+margin-bottom: 12px;
+
+
+
+font-size: 16px;
+
+
+
+border: 1px solid #ccc;
+
+border-radius: 6px;
+
+} 
+
