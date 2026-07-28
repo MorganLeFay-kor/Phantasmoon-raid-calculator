@@ -13,6 +13,10 @@ function calculateRaid1() {
         (bronze * 10);
 
     document.getElementById("totalAP1").textContent = totalAP;
+    
+    const runCount = Math.floor(totalAP / 40);
+
+    document.getElementById("runCount1").textContent = runCount + "회";
 }
 
 function calculateRaid2() {
@@ -30,6 +34,10 @@ function calculateRaid2() {
         (bronze * 10);
 
     document.getElementById("totalAP2").textContent = totalAP;
+
+    const runCount = Math.floor(totalAP / 40);
+
+    document.getElementById("runCount2").textContent = runCount + "회";
 }
 
 function calculateAll() {
