@@ -33,18 +33,23 @@ function calculateRaid1() {
      bondPoint.toLocaleString() + " pt";
 
     document.getElementById("qp1").textContent =
+    <img src="images/qp.png" class="icon" alt="QP">
     (qp / 100000000).toFixed(2) + "억";
 
     document.getElementById("piece1").textContent =
+    <img src="images/piece.png" class="icon" alt="황성의 조각">
     piece.toFixed(2) + "개";
 
     document.getElementById("thread1").textContent =
+    <img src="images/thread.png" class="icon" alt="무지갯빛 실타래">
     thread.toFixed(2) + "개";
 
     document.getElementById("baby1").textContent =
+    <img src="images/baby.png" class="icon" alt="호문클루스 베이비">
     baby.toFixed(2) + "개";
 
     document.getElementById("dust1").textContent =
+    <img src="images/dust.png" class="icon" alt="허영의 먼지">
     dust.toFixed(2) + "개";
 }
 
