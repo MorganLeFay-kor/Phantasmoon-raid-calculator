@@ -24,11 +24,28 @@ function calculateRaid1() {
 
     const qp = runCount * 5230000;
 
+    const piece = runCount * 0.257;
+    const thread = runCount * 0.701;
+    const baby = runCount * 0.699;
+    const dust = runCount * 0.840;
+
      document.getElementById("bondPoint1").textContent =
      bondPoint.toLocaleString() + " pt";
 
     document.getElementById("qp1").textContent =
     (qp / 100000000).toFixed(2) + "억";
+
+    document.getElementById("piece1").textContent =
+    piece.toFixed(2) + "개";
+
+    document.getElementById("thread1").textContent =
+    thread.toFixed(2) + "개";
+
+    document.getElementById("baby1").textContent =
+    baby.toFixed(2) + "개";
+
+    document.getElementById("dust1").textContent =
+    dust.toFixed(2) + "개";
 }
 
 function calculateRaid2() {
