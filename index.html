@@ -1,119 +1,66 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>판문 레이드 계산기</title>
 
-<title>판문 레이드 계산기</title>
-
-<style>
-
-body{
-    margin:40px;
-    font-family:"Malgun Gothic", sans-serif;
-    background:#f5f5f5;
-}
-
-h1{
-    text-align:center;
-    font-size:48px;
-    margin-bottom:50px;
-}
-
-.raid{
-    background:white;
-    border:2px solid #ff6b6b;
-    padding:25px;
-    margin-bottom:40px;
-
-    display:grid;
-    grid-template-columns:220px 260px 280px 300px;
-    gap:25px;
-}
-
-.title{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    font-size:30px;
-    font-weight:bold;
-}
-
-.box{
-
-    border:1px solid #555;
-    min-height:220px;
-    padding:15px;
-}
-
-.box h2{
-
-    margin-top:0;
-    text-align:center;
-    font-size:22px;
-}
-@media (max-width: 900px){
-
-    .raid{
-
-        grid-template-columns:1fr;
-    }
-
-    .title{
-
-        font-size:28px;
-    }
-
-}
-</style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>판문 레이드 계산기</h1>
+    <h1>판문 레이드 계산기</h1>
 
-<div class="raid">
+    <!-- 1차 레이드 -->
+    <section class="raid">
 
-    <div class="title">
-        1차 레이드
-    </div>
+        <h2>1차 레이드</h2>
 
-    <div class="box">
-        <h2>입력</h2>
-    </div>
+        <div class="content">
 
-    <div class="box">
-        <h2>결과</h2>
-    </div>
+            <div class="card">
+                <h3>입력</h3>
+            </div>
 
-    <div class="box">
-        <h2>드롭 아이템</h2>
-    </div>
+            <div class="card">
+                <h3>결과</h3>
+            </div>
 
-</div>
+            <div class="card">
+                <h3>드롭 아이템</h3>
+            </div>
 
+        </div>
 
-<div class="raid">
+    </section>
 
-    <div class="title">
-        2차 레이드
-    </div>
+    <!-- 2차 레이드 -->
+    <section class="raid">
 
-    <div class="box">
-        <h2>입력</h2>
-    </div>
+        <h2>2차 레이드</h2>
 
-    <div class="box">
-        <h2>결과</h2>
-    </div>
+        <div class="content">
 
-    <div class="box">
-        <h2>드롭 아이템</h2>
-    </div>
+            <div class="card">
+                <h3>입력</h3>
+            </div>
 
-</div>
+            <div class="card">
+                <h3>결과</h3>
+            </div>
+
+            <div class="card">
+                <h3>드롭 아이템</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
