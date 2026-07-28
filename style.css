@@ -80,16 +80,23 @@ h1 {
 
 label {
     display: block;
+
     margin-top: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
+
     font-weight: bold;
 }
 
 input {
+    display: block;
     width: 100%;
     box-sizing: border-box;
+
     padding: 8px;
+    margin-bottom: 12px;
+
     font-size: 16px;
+
     border: 1px solid #ccc;
     border-radius: 6px;
 }
