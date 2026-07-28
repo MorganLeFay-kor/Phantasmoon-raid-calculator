@@ -36,16 +36,16 @@ function calculateRaid1() {
     (qp / 100000000).toFixed(2) + "억";
 
     document.getElementById("piece1").textContent =
-    core.toFixed(2) + "개";
+    piece.toFixed(2) + "개";
 
     document.getElementById("thread1").textContent =
-    claw.toFixed(2) + "개";
-    
+    thread.toFixed(2) + "개";
+
     document.getElementById("baby1").textContent =
-    jade.toFixed(2) + "개";
-    
+    baby.toFixed(2) + "개";
+
     document.getElementById("dust1").textContent =
-    dust.tofixed(2) + "개";
+    dust.toFixed(2) + "개";
 }
 
 function calculateRaid2() {
