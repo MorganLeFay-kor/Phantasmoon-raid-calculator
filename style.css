@@ -77,6 +77,44 @@ h1 {
     margin: 0;
 }
 
+/* 공통 카드 스타일 */
+.card {
+  position: relative;
+  border-radius: 12px;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* 카드 내 텍스트 및 입력창 가독성 확보 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* 1. 입력 카드 배경 (반투명 오버레이 + 세로 일러스트) */
+.card-input {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
+    url('phanta1.png');
+}
+
+/* 2. 결과 카드 배경 */
+.card-result {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
+    url('phanta2.png');
+}
+
+/* 3. 드롭 아이템 카드 배경 */
+.card-drop {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), 
+    url('phanta3.png');
+}
+
+/* 입력 필드 배경을 살짝 투명하게 만들어 카드 배경 일러스트와 어우러지게 조정 */
+.card input, .card select {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 /* 아이콘 공통 스타일 */
 .icon {
   width: 24px;              /* 아이콘 너비 (원하는 크기로 조절 가능) */
