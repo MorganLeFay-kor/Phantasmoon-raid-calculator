@@ -76,6 +76,25 @@ h1 {
     flex: 1;
     margin: 0;
 }
+
+/* 아이콘 공통 스타일 */
+.icon {
+  width: 24px;              /* 아이콘 너비 (원하는 크기로 조절 가능) */
+  height: 24px;             /* 아이콘 높이 */
+  object-fit: contain;      /* 이미지 비율 유지 */
+  vertical-align: middle;   /* 텍스트와 높이 맞춤 */
+  margin-right: 6px;        /* 텍스트와의 간격 */
+}
+
+/* 드롭 아이템용 조금 더 큰 아이콘 */
+.item-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
 /* 모바일 대응 */
 
 @media (max-width:900px){
