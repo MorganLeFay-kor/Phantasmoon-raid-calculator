@@ -51,16 +51,16 @@ function calculateRaid2() {
 
     document.getElementById("runCount2").textContent = runCount + "회";
 
-    const bondBonus = Number(document.getElementById("bond1").value);
+    const bondBonus = Number(document.getElementById("bond2").value);
 
     const bondPoint = Math.floor(runCount * 2636 * (1 + bondBonus / 100));
 
     const qp = runCount * 5240000;
 
-     document.getElementById("bondPoint1").textContent =
+     document.getElementById("bondPoint2").textContent =
      bondPoint.toLocaleString() + " pt";
 
-    document.getElementById("qp1").textContent =
+    document.getElementById("qp2").textContent =
     (qp / 100000000).toFixed(2) + "억";
 }
 
